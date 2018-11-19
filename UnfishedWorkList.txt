@@ -1,0 +1,15 @@
+Unfinished portions of Portfolio:
+
+Need to fit the entire content background area to the page, so the footer would get pushed to the bottom, instead of having whitespace on bottom
+
+Need further formatting and optimization of classes and ids to eliminate redundancies in CSS.
+
+Need to format page further to meet specs, topical things like sizes,styles, and margins.
+
+Need to optimize how images are placed
+
+Improve readability/formatting, naming conventions, and add more notes.
+
+Need subtle nav bar borders
+
+Replace content background with a background image from (https://subtlepatterns.com/)

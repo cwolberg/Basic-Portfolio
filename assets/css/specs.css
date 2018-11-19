@@ -1,0 +1,93 @@
+/*without this file, the website is a template*/
+
+#page-title{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#name{
+    background-color: #4aaaa5;
+    color:white;
+    font-size:22px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.btn-primary{
+    background-color:#4aaaa5;
+    color:white;
+}
+
+#nav-wrapper {
+background-color:#ffffff;
+border-color: #cccccc;
+}
+
+#nav-container{
+    background-color:#ffffff;
+}
+
+#footer{
+    background-color:#666666;
+    border-color:#4aaaa5;
+    color:lightgray;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.textblock{
+    color:white;
+    font-weight:bold;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#content-container{
+    background-color:#ffffff;
+    color:lightgray;
+    border-color: #dddddd;
+}
+
+#content-wrapper{
+    background-color:lightgray;
+}
+
+
+#imgtext-blocka{
+    background-color:#4aaaa5;
+}
+#imgtext-blockb{
+    background-color:#4aaaa5;
+}
+#imgtext-blockc{
+    background-color:#4aaaa5;
+}
+#imgtext-blockd{
+    background-color:#4aaaa5;
+}
+#imgtext-blocke{
+    background-color:#4aaaa5;
+}
+#opening{
+    float:right;   
+}
+#aboutimg{
+    float:left;
+    margin-right: 30px;
+    margin-bottom:30px;
+}
+p{color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+
+.form-group{
+    margin-right: 30px;
+}
+
+label{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+a{
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#content-wrapper{
+    background-image: url('full-bloom.png');
+}

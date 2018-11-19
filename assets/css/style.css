@@ -1,0 +1,131 @@
+#nav-bar{
+    overflow: auto;
+    
+}
+.nav-option{
+    display:inline-grid;
+    float:right;
+    padding: 14px 16px;
+}
+#name{
+    color:purple;
+    font-size:30px;
+    width:160px;
+    background: teal;
+    padding:10px;
+    text-align: center;
+    float: left;
+}
+#page-title{
+    color:purple;
+    font-size:30px;
+    padding:10px;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+}
+#nav-wrapper{
+    /*Creates fullbackground for nav*/
+    background: no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-color: green;
+    border-bottom: 5px solid gray;
+}
+#nav-container{
+    /*Creates nav parameters*/
+    width: 960px;
+    background-color:red;
+    margin:0 auto;
+    overflow:hidden;
+}
+.content{
+    padding-top:10px;
+    padding-bottom:10px;
+     overflow:hidden;
+     padding-left:50px;
+}
+#content-wrapper{
+    /*Creates fullbackground for content*/
+    overflow:auto;
+    background: no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-color: yellow;
+}
+#content-container{
+    /*Creates content parameters*/
+    width: 960px;
+    background-color:black;
+    margin:0 auto;
+    padding:10,10,10,10;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    
+}
+#footer{
+    border-top: 5px solid blue;
+    background-color: brown;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.imgtext-container {
+    position: relative;
+    font-family: Arial;
+}
+.img-container{
+    height:178px;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout -
+ makes the two columns stack on 
+ top of each other instead of next
+  to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
